@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.8">
   <diagram name="Page-1" id="acQ6_JR2OjChLynLOMgW">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eyrUTZ7Jel530z4PqEOe-1" value="Approaches" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eyrUTZ7Jel530z4PqEOe-2" value="Zotero/ jabref etc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eyrUTZ7Jel530z4PqEOe-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eyrUTZ7Jel530z4PqEOe-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eyrUTZ7Jel530z4PqEOe-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eyrUTZ7Jel530z4PqEOe-5" target="eyrUTZ7Jel530z4PqEOe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eyrUTZ7Jel530z4PqEOe-5" value="Problems common" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eyrUTZ7Jel530z4PqEOe-6" value="&lt;ol&gt;&lt;li&gt;.odt file to docx&lt;/li&gt;&lt;li&gt;database has to be change (Add just a table)&lt;/li&gt;&lt;li&gt;some approaches say to delete all then insert references again with new one (e.g jabref)&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="700" y="230" width="300" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
