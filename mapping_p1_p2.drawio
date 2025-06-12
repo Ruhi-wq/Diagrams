@@ -63,6 +63,9 @@
         <mxCell id="rNh395utH_tiI8CZSBo7-7" value="Log and Exit" style="shape=terminator;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="10" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rNh395utH_tiI8CZSBo7-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rNh395utH_tiI8CZSBo7-8" target="rNh395utH_tiI8CZSBo7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rNh395utH_tiI8CZSBo7-8" value="ThreadPoolExecutor: _process_single_mapping(p1_id)" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="85" y="90" width="220" height="80" as="geometry" />
         </mxCell>
@@ -124,6 +127,15 @@
         </mxCell>
         <mxCell id="rNh395utH_tiI8CZSBo7-26" value="Initial filtering" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="-70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rNh395utH_tiI8CZSBo7-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rNh395utH_tiI8CZSBo7-28" target="rNh395utH_tiI8CZSBo7-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rNh395utH_tiI8CZSBo7-28" value="Execute chain" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="90" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rNh395utH_tiI8CZSBo7-30" value="Fetch result" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="250" width="220" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
