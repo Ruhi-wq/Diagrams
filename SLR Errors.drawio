@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.1.4" pages="2">
   <diagram name="SLR Flow Errors" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
-    <mxGraphModel dx="3015" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3020" dy="1407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gho2EZESTIuQaTG-O0x6-40" value="Metadata manager: Create thread" style="ellipse;fillColor=#DAE8FC" parent="1" vertex="1">
-          <mxGeometry x="40" y="140" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-40" value="Metadata manager: Create thread" style="ellipse;fillColor=#DAE8FC;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="130" width="360" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gho2EZESTIuQaTG-O0x6-41" value="SLR Fabric: Create fabric1" style="ellipse;fillColor=#D5E8D4" parent="1" vertex="1">
           <mxGeometry x="40" y="270" width="160" height="60" as="geometry" />
