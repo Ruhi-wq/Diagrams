@@ -7,80 +7,80 @@
         <mxCell id="gho2EZESTIuQaTG-O0x6-40" value="Metadata manager: Create thread" style="ellipse;fillColor=#DAE8FC;fontSize=21;" parent="1" vertex="1">
           <mxGeometry x="-60" y="130" width="360" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-41" value="SLR Fabric: Create fabric1" style="ellipse;fillColor=#D5E8D4" parent="1" vertex="1">
-          <mxGeometry x="40" y="270" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-41" value="SLR Fabric: Create fabric1" style="ellipse;fillColor=#D5E8D4;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-25" y="260" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-42" value="Metadata mgr: Docs uploaded" style="ellipse;fillColor=#FFE6CC" parent="1" vertex="1">
-          <mxGeometry x="40" y="370" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-42" value="Metadata mgr: Docs uploaded" style="ellipse;fillColor=#FFE6CC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-30" y="380" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wN95eQj6JGcQOopKYXRI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gho2EZESTIuQaTG-O0x6-43" target="gho2EZESTIuQaTG-O0x6-45" edge="1">
+        <mxCell id="wN95eQj6JGcQOopKYXRI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21" parent="1" source="gho2EZESTIuQaTG-O0x6-43" target="gho2EZESTIuQaTG-O0x6-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-43" value="SLR Fabric: Create fabric1 again" style="ellipse;fillColor=#D5E8D4" parent="1" vertex="1">
-          <mxGeometry x="40" y="490" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-43" value="SLR Fabric: Create fabric1 again" style="ellipse;fillColor=#D5E8D4;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-50" y="519.5" width="350" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wN95eQj6JGcQOopKYXRI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;shape=link;" parent="1" source="gho2EZESTIuQaTG-O0x6-44" target="gho2EZESTIuQaTG-O0x6-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-44" value="Error: Docs count mismatch (16 vs 20)" style="rounded=1;fillColor=#F8CECC" parent="1" vertex="1">
-          <mxGeometry x="450" y="490" width="260" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-44" value="Error: Docs count mismatch (16 vs 20)" style="rounded=1;fillColor=#F8CECC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="450" y="490" width="380" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wN95eQj6JGcQOopKYXRI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gho2EZESTIuQaTG-O0x6-45" target="gho2EZESTIuQaTG-O0x6-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-45" value="SLR Studio: Check buttons" style="ellipse;fillColor=#EBF1DE" parent="1" vertex="1">
-          <mxGeometry x="20" y="610" width="200" height="50" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-45" value="SLR Studio: Check buttons" style="ellipse;fillColor=#EBF1DE;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-40" y="690" width="330" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-46" value="Error: Phase1 merge runs without input" style="rounded=1;fillColor=#F8CECC" parent="1" vertex="1">
-          <mxGeometry x="900" y="554" width="260" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-46" value="Error: Phase1 merge runs without input" style="rounded=1;fillColor=#F8CECC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="1150" y="530" width="410" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-47" value="Error: Link btn active too early" style="rounded=1;fillColor=#F8CECC" parent="1" vertex="1">
-          <mxGeometry x="900" y="630" width="260" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-47" value="Error: Link btn active too early" style="rounded=1;fillColor=#F8CECC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="1160" y="660" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-48" value="Error: Phase2 merge runs w/ no input" style="rounded=1;fillColor=#F8CECC" parent="1" vertex="1">
-          <mxGeometry x="900" y="720" width="260" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-48" value="Error: Phase2 merge runs w/ no input" style="rounded=1;fillColor=#F8CECC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="1160" y="790" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-49" value="SLR Phase1: run" style="ellipse;fillColor=#E1D5E7" parent="1" vertex="1">
-          <mxGeometry x="40" y="760" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-49" value="SLR Phase1: run" style="ellipse;fillColor=#E1D5E7;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-62.5" y="870" width="375" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wN95eQj6JGcQOopKYXRI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gho2EZESTIuQaTG-O0x6-50" target="gho2EZESTIuQaTG-O0x6-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-50" value="Phase1 Human" style="ellipse;fillColor=#E1D5E7" parent="1" vertex="1">
-          <mxGeometry x="40" y="870" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-50" value="Phase1 Human" style="ellipse;fillColor=#E1D5E7;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-57.5" y="990" width="365" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-51" value="Error: Unprocessable entity (No Decision)" style="rounded=1;fillColor=#F8CECC" parent="1" vertex="1">
-          <mxGeometry x="450" y="870" width="260" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-51" value="Error: Unprocessable entity (No Decision)" style="rounded=1;fillColor=#F8CECC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="780" y="1010" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wN95eQj6JGcQOopKYXRI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gho2EZESTIuQaTG-O0x6-52" target="gho2EZESTIuQaTG-O0x6-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-52" value="Phase1 Conflict" style="ellipse;fillColor=#FFF2CC" parent="1" vertex="1">
-          <mxGeometry x="40" y="970" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-52" value="Phase1 Conflict" style="ellipse;fillColor=#FFF2CC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-55" y="1130" width="360" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-53" value="Error: Unprocessable entity (Conflict)" style="rounded=1;fillColor=#F8CECC" parent="1" vertex="1">
-          <mxGeometry x="450" y="970" width="260" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-53" value="Error: Unprocessable entity (Conflict)" style="rounded=1;fillColor=#F8CECC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="780" y="1150" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wN95eQj6JGcQOopKYXRI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gho2EZESTIuQaTG-O0x6-54" target="gho2EZESTIuQaTG-O0x6-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-54" value="SLR Phase Linking" style="ellipse;fillColor=#E1D5E7" parent="1" vertex="1">
-          <mxGeometry x="40" y="1060" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-54" value="SLR Phase Linking" style="ellipse;fillColor=#E1D5E7;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-60" y="1300" width="370" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-55" value="Error: Linking starts w/ unresolved conflicts" style="rounded=1;fillColor=#F8CECC" parent="1" vertex="1">
-          <mxGeometry x="414" y="1060" width="300" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-55" value="Error: Linking starts w/ unresolved conflicts" style="rounded=1;fillColor=#F8CECC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="560" y="1320" width="430" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-56" value="Error: Linking success msg, but consumer not started" style="rounded=1;fillColor=#F8CECC" parent="1" vertex="1">
-          <mxGeometry x="790" y="1060" width="360" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-56" value="Error: Linking success msg, but consumer not started" style="rounded=1;fillColor=#F8CECC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="1120" y="1320" width="520" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-57" value="Phase2 AI" style="ellipse;fillColor=#EDEDED" parent="1" vertex="1">
-          <mxGeometry x="40" y="1169" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-57" value="Phase2 AI" style="ellipse;fillColor=#EDEDED;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-80" y="1480" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-58" value="Phase2 Human" style="ellipse;fillColor=#EDEDED" parent="1" vertex="1">
-          <mxGeometry x="40" y="1270" width="160" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-58" value="Phase2 Human" style="ellipse;fillColor=#EDEDED;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="-75" y="1670" width="400" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="gho2EZESTIuQaTG-O0x6-59" value="Error: Unprocessable entity (Phase2)" style="rounded=1;fillColor=#F8CECC" parent="1" vertex="1">
-          <mxGeometry x="434" y="1270" width="260" height="60" as="geometry" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-59" value="Error: Unprocessable entity (Phase2)" style="rounded=1;fillColor=#F8CECC;fontSize=21" parent="1" vertex="1">
+          <mxGeometry x="600" y="1685" width="453" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gho2EZESTIuQaTG-O0x6-60" style="" parent="1" source="gho2EZESTIuQaTG-O0x6-40" target="gho2EZESTIuQaTG-O0x6-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
