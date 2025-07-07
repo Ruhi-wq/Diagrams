@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.1.4" pages="2">
+  <diagram name="SLR Flow Errors" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
+    <mxGraphModel dx="3015" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gho2EZESTIuQaTG-O0x6-40" value="Metadata manager: Create thread" style="ellipse;fillColor=#DAE8FC" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-41" value="SLR Fabric: Create fabric1" style="ellipse;fillColor=#D5E8D4" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-42" value="Metadata mgr: Docs uploaded" style="ellipse;fillColor=#FFE6CC" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wN95eQj6JGcQOopKYXRI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-43" target="gho2EZESTIuQaTG-O0x6-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-43" value="SLR Fabric: Create fabric1 again" style="ellipse;fillColor=#D5E8D4" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wN95eQj6JGcQOopKYXRI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;shape=link;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-44" target="gho2EZESTIuQaTG-O0x6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-44" value="Error: Docs count mismatch (16 vs 20)" style="rounded=1;fillColor=#F8CECC" vertex="1" parent="1">
+          <mxGeometry x="620" y="490" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wN95eQj6JGcQOopKYXRI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-45" target="gho2EZESTIuQaTG-O0x6-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-45" value="SLR Studio: Check buttons" style="ellipse;fillColor=#EBF1DE" vertex="1" parent="1">
+          <mxGeometry x="20" y="610" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-46" value="Error: Phase1 merge runs without input" style="rounded=1;fillColor=#F8CECC" vertex="1" parent="1">
+          <mxGeometry x="900" y="555" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-47" value="Error: Link btn active too early" style="rounded=1;fillColor=#F8CECC" vertex="1" parent="1">
+          <mxGeometry x="900" y="630" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-48" value="Error: Phase2 merge runs w/ no input" style="rounded=1;fillColor=#F8CECC" vertex="1" parent="1">
+          <mxGeometry x="900" y="710" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-49" value="SLR Phase1: run" style="ellipse;fillColor=#E1D5E7" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wN95eQj6JGcQOopKYXRI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-50" target="gho2EZESTIuQaTG-O0x6-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-50" value="Phase1 Human" style="ellipse;fillColor=#E1D5E7" vertex="1" parent="1">
+          <mxGeometry x="40" y="870" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-51" value="Error: Unprocessable entity (No Decision)" style="rounded=1;fillColor=#F8CECC" vertex="1" parent="1">
+          <mxGeometry x="520" y="830" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wN95eQj6JGcQOopKYXRI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-52" target="gho2EZESTIuQaTG-O0x6-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-52" value="Phase1 Conflict" style="ellipse;fillColor=#FFF2CC" vertex="1" parent="1">
+          <mxGeometry x="40" y="970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-53" value="Error: Unprocessable entity (Conflict)" style="rounded=1;fillColor=#F8CECC" vertex="1" parent="1">
+          <mxGeometry x="810" y="880" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wN95eQj6JGcQOopKYXRI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-54" target="gho2EZESTIuQaTG-O0x6-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-54" value="SLR Phase Linking" style="ellipse;fillColor=#E1D5E7" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-55" value="Error: Linking starts w/ unresolved conflicts" style="rounded=1;fillColor=#F8CECC" vertex="1" parent="1">
+          <mxGeometry x="414" y="1010" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-56" value="Error: Linking success msg, but consumer not started" style="rounded=1;fillColor=#F8CECC" vertex="1" parent="1">
+          <mxGeometry x="760" y="990" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-57" value="Phase2 AI" style="ellipse;fillColor=#EDEDED" vertex="1" parent="1">
+          <mxGeometry x="40" y="1169" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-58" value="Phase2 Human" style="ellipse;fillColor=#EDEDED" vertex="1" parent="1">
+          <mxGeometry x="40" y="1270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-59" value="Error: Unprocessable entity (Phase2)" style="rounded=1;fillColor=#F8CECC" vertex="1" parent="1">
+          <mxGeometry x="750" y="1250" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-60" style="" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-40" target="gho2EZESTIuQaTG-O0x6-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-61" style="" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-41" target="gho2EZESTIuQaTG-O0x6-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-62" style="" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-42" target="gho2EZESTIuQaTG-O0x6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-65" style="shape=link;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-45" target="gho2EZESTIuQaTG-O0x6-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-66" style="shape=link;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-45" target="gho2EZESTIuQaTG-O0x6-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-67" style="shape=link;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-45" target="gho2EZESTIuQaTG-O0x6-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-69" style="" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-49" target="gho2EZESTIuQaTG-O0x6-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-70" style="shape=link;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-50" target="gho2EZESTIuQaTG-O0x6-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-72" style="shape=link;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-52" target="gho2EZESTIuQaTG-O0x6-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-74" style="shape=link;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-54" target="gho2EZESTIuQaTG-O0x6-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-75" style="" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-55" target="gho2EZESTIuQaTG-O0x6-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-77" style="" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-57" target="gho2EZESTIuQaTG-O0x6-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gho2EZESTIuQaTG-O0x6-78" style="shape=link;" edge="1" parent="1" source="gho2EZESTIuQaTG-O0x6-58" target="gho2EZESTIuQaTG-O0x6-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ipYCEBryERuvWFgLw_n_" name="Page-2">
+    <mxGraphModel dx="1206" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
